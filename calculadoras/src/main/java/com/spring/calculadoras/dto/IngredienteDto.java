@@ -11,4 +11,13 @@ public class IngredienteDto {
     private String name;
     private double weight;
     private double calories;
+
+    @Override
+    public String toString() {
+        return "IngredienteDto{" +
+                "name='" + name + '\'' +
+                ", weight=" + weight +
+                ", calories=" + calories +
+                '}';
+    }
 }
